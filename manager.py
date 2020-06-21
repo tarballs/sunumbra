@@ -1,17 +1,16 @@
 """manager class, contains data for everything else"""
 import world, gui, par
-import worldeditor
 
 def start():
 	gui.menu()
 	controller('menu')
 
-def controller(context):
+def controller(context):  
 	keyin = gui.getinput()
 	if context == 'menu':
 		if keyin == '1':
 			gui.clear()
-			#placeholder for world selection, then call world.load with name
+			#placeholder for world selection, then call world.load with name once multiple world.graphs are used
 			global graph
 			graph = world.load()
 			rungame()
