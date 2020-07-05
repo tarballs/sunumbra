@@ -1,0 +1,16 @@
+development notes
+
+---branches---
+
+0v005
+    world building tools
+    1. creating a world
+    2. drawing rivers and mountains
+    3. pathfinding for determining where to place nodes on map
+
+    working on:
+    1. cleaning up the world image, tools for modifying it
+
+    progress:
+    got very basic world image array working, module looks good
+    refactored, simplified and established some guidelines
